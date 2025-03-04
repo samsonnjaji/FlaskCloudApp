@@ -9,48 +9,47 @@ def home():
     <html>
     <head>
       <meta charset="UTF-8">
-      <title>Njaji Sibona's Profile</title>
-      <!-- Google Font -->
-      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+      <title>Donald Odhiambo's Profile</title>
+      <!-- Import Roboto font from Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
       <style>
         body {
+          background-color: #2c3e50;
+          font-family: 'Roboto', sans-serif;
+          color: #ecf0f1;
           margin: 0;
           padding: 0;
-          font-family: 'Poppins', sans-serif;
-          background: linear-gradient(135deg, #667eea, #764ba2);
-          color: #fff;
           display: flex;
           align-items: center;
           justify-content: center;
-          min-height: 100vh;
+          height: 100vh;
         }
         .container {
-          width: 90%;
-          max-width: 600px;
-          background: rgba(0, 0, 0, 0.5);
-          border-radius: 10px;
-          box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-          padding: 30px;
           text-align: center;
+          border: 2px solid #ecf0f1;
+          border-radius: 8px;
+          padding: 40px;
+          background: rgba(44, 62, 80, 0.85);
+          box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
         .box {
-          background: rgba(255, 255, 255, 0.1);
-          padding: 15px;
-          margin: 10px 0;
+          margin: 20px 0;
+          padding: 20px;
+          background-color: #34495e;
           border-radius: 5px;
-          transition: transform 0.2s ease, background 0.2s ease;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+          transition: transform 0.3s ease, background-color 0.3s ease;
         }
         .box:hover {
-          transform: scale(1.02);
-          background: rgba(255, 255, 255, 0.2);
+          transform: translateY(-5px);
+          background-color: #3d566e;
         }
       </style>
     </head>
     <body>
       <div class="container">
-        <div class="box">Hello</div>
-        <div class="box">My name is Njaji Sibona Samson</div>
-   
+        <div class="box">Hey Everyone 😎 </div>
+        <div class="box">My name is Donald Odhiambo</div>
       </div>
     </body>
     </html>
