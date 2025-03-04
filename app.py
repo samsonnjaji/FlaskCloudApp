@@ -49,9 +49,8 @@ def home():
     <body>
       <div class="container">
         <div class="box">Hello</div>
-        <div class="box">My name is Njaji Sibona S</div>
-        <div class="box">Reg. No: 23/05541</div>
-        <div class="box">BSD</div>
+        <div class="box">My name is Njaji Sibona Samson</div>
+   
       </div>
     </body>
     </html>
